@@ -1,0 +1,226 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "listingId",
+    "type": "string",
+    "description": "Unique Cars.com listing UUID (e.g., 62a9e175-556a-49da-b18e-e2ac95ef83ba)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "vin",
+    "type": "string",
+    "description": "Vehicle Identification Number (17-character unique code)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "stockType",
+    "type": "string",
+    "description": "Listing type (New, Used, Certified)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "year",
+    "type": "float",
+    "description": "Vehicle model year",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "make",
+    "type": "string",
+    "description": "Vehicle manufacturer (e.g., Mazda, Audi, Toyota)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "model",
+    "type": "string",
+    "description": "Vehicle model name (e.g., CX-5, Q5, Camry)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "trim",
+    "type": "string",
+    "description": "Vehicle trim level (e.g., 2.5 S Preferred Package, Premium Plus 45 TFSI)",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "price",
+    "type": "float",
+    "description": "Listed price in USD",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "msrp",
+    "type": "float",
+    "description": "Manufacturer suggested retail price in USD",
+    "fillRate": 48,
+    "premium": true
+  },
+  {
+    "name": "mileage",
+    "type": "float",
+    "description": "Odometer reading in miles",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "bodyStyle",
+    "type": "string",
+    "description": "Body style (Sedan, SUV, Coupe, Hatchback, Truck, etc.)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "exteriorColor",
+    "type": "string",
+    "description": "Exterior color (e.g., Black, White, Silver)",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "interiorColor",
+    "type": "string",
+    "description": "Interior color (e.g., Black Leather, Beige)",
+    "fillRate": 97,
+    "premium": false
+  },
+  {
+    "name": "drivetrain",
+    "type": "string",
+    "description": "Drivetrain type (e.g., All-wheel Drive, Front-wheel Drive, Four-wheel Drive, Rear-wheel Drive, FWD, AWD)",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "transmission",
+    "type": "string",
+    "description": "Transmission type (e.g., Automatic, Manual)",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "engine",
+    "type": "string",
+    "description": "Engine description (e.g., SKYACTIV-G 2.5L I-4)",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "fuelType",
+    "type": "string",
+    "description": "Fuel type (e.g., Gasoline, Hybrid, E85 Flex Fuel, Diesel)",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "mpg",
+    "type": "string",
+    "description": "EPA mileage rating range (e.g., 26-30)",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "stockNumber",
+    "type": "string",
+    "description": "Dealer stock number",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "sellerType",
+    "type": "string",
+    "description": "Seller type (e.g., dealership)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerName",
+    "type": "string",
+    "description": "Seller/dealer name (e.g., Liberty Mazda, Audi Richmond)",
+    "fillRate": 99,
+    "premium": true
+  },
+  {
+    "name": "sellerCity",
+    "type": "string",
+    "description": "Seller city location",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "sellerState",
+    "type": "string",
+    "description": "Seller state abbreviation (e.g., CT, VA)",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "images",
+    "type": "array",
+    "description": "Array of all listing photo URLs",
+    "fillRate": 2,
+    "premium": true
+  },
+  {
+    "name": "imagesCount",
+    "type": "float",
+    "description": "Number of listing images",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "options",
+    "type": "array",
+    "description": "Array of vehicle options (e.g., Adaptive Cruise Control, Heated Seats, Bluetooth)",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "optionsCount",
+    "type": "float",
+    "description": "Number of vehicle options",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "description",
+    "type": "string",
+    "description": "Seller description/notes about the vehicle",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "listingUrl",
+    "type": "string",
+    "description": "Full URL to the Cars.com vehicle listing page",
+    "fillRate": 100,
+    "premium": true
+  }
+]
