@@ -80,7 +80,7 @@
     "name": "msrp",
     "type": "float",
     "description": "Manufacturer suggested retail price in USD",
-    "fillRate": 48,
+    "fillRate": 47,
     "premium": true
   },
   {
