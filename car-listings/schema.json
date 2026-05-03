@@ -66,7 +66,7 @@
     "name": "trim",
     "type": "string",
     "description": "Vehicle trim level (e.g., 2.5 S Preferred Package, Premium Plus 45 TFSI)",
-    "fillRate": 99,
+    "fillRate": 98,
     "premium": false
   },
   {
