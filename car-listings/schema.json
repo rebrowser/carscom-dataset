@@ -213,7 +213,7 @@
     "name": "description",
     "type": "string",
     "description": "Seller description/notes about the vehicle",
-    "fillRate": 2,
+    "fillRate": 1,
     "premium": false
   },
   {
