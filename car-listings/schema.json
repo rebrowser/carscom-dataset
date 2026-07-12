@@ -80,7 +80,7 @@
     "name": "msrp",
     "type": "float",
     "description": "Manufacturer suggested retail price in USD",
-    "fillRate": 45,
+    "fillRate": 44,
     "premium": true
   },
   {
@@ -122,14 +122,14 @@
     "name": "transmission",
     "type": "string",
     "description": "Transmission type (e.g., Automatic, Manual)",
-    "fillRate": 2,
+    "fillRate": 1,
     "premium": false
   },
   {
     "name": "engine",
     "type": "string",
     "description": "Engine description (e.g., SKYACTIV-G 2.5L I-4)",
-    "fillRate": 2,
+    "fillRate": 1,
     "premium": false
   },
   {
@@ -150,7 +150,7 @@
     "name": "stockNumber",
     "type": "string",
     "description": "Dealer stock number",
-    "fillRate": 2,
+    "fillRate": 1,
     "premium": false
   },
   {
@@ -185,28 +185,28 @@
     "name": "images",
     "type": "array",
     "description": "Array of all listing photo URLs",
-    "fillRate": 2,
+    "fillRate": 1,
     "premium": true
   },
   {
     "name": "imagesCount",
     "type": "float",
     "description": "Number of listing images",
-    "fillRate": 2,
+    "fillRate": 1,
     "premium": false
   },
   {
     "name": "options",
     "type": "array",
     "description": "Array of vehicle options (e.g., Adaptive Cruise Control, Heated Seats, Bluetooth)",
-    "fillRate": 2,
+    "fillRate": 1,
     "premium": false
   },
   {
     "name": "optionsCount",
     "type": "float",
     "description": "Number of vehicle options",
-    "fillRate": 2,
+    "fillRate": 1,
     "premium": false
   },
   {
