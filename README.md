@@ -1,6 +1,6 @@
 # Cars.com Vehicle Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--07--16-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-7.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/carscom)
+![Updated](https://img.shields.io/badge/updated-2026--07--17-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-7.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/carscom)
 
 Daily sample of Cars.com vehicle listings with make, model, trim, mileage, body style, drivetrain, and dealer location across new and used inventory.
 
@@ -176,23 +176,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Car Listings
 
 
-[Vehicle Listings with Pricing](https://rebrowser.net/products/datasets/carscom/car-listings/views/listings-with-pricing) — 7,314,219 records
+[Vehicle Listings with Pricing](https://rebrowser.net/products/datasets/carscom/car-listings/views/listings-with-pricing) — 7,361,066 records
 
 ↳ `[{"field":"price","op":"gt","value":0},{"sort":"price ASC"}]`
 
-[New Vehicle Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/new-vehicle-listings) — 3,027,980 records
+[New Vehicle Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/new-vehicle-listings) — 3,035,838 records
 
 ↳ `[{"field":"stockType","op":"is","value":"New"},{"sort":"price ASC"}]`
 
-[Used Vehicle Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/used-vehicle-listings) — 4,305,190 records
+[Used Vehicle Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/used-vehicle-listings) — 4,325,262 records
 
 ↳ `[{"field":"stockType","op":"is","value":"Used"},{"sort":"price ASC"}]`
 
-[Listings with Multiple Photos](https://rebrowser.net/products/datasets/carscom/car-listings/views/listings-with-photos) — 91,181 records
+[Listings with Multiple Photos](https://rebrowser.net/products/datasets/carscom/car-listings/views/listings-with-photos) — 359,516 records
 
 ↳ `[{"field":"imagesCount","op":"gt","value":5},{"sort":"imagesCount DESC"}]`
 
-[SUV Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/suv-listings) — 4,062,150 records
+[SUV Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/suv-listings) — 4,069,274 records
 
 ↳ `[{"field":"bodyStyle","op":"is","value":"SUV"},{"sort":"price ASC"}]`
 
