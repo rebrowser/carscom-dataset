@@ -80,7 +80,7 @@
     "name": "msrp",
     "type": "float",
     "description": "Manufacturer suggested retail price in USD",
-    "fillRate": 44,
+    "fillRate": 43,
     "premium": true
   },
   {
@@ -185,14 +185,14 @@
     "name": "images",
     "type": "array",
     "description": "Array of all listing photo URLs",
-    "fillRate": 1,
+    "fillRate": 23,
     "premium": true
   },
   {
     "name": "imagesCount",
     "type": "float",
     "description": "Number of listing images",
-    "fillRate": 1,
+    "fillRate": 23,
     "premium": false
   },
   {
