@@ -1,6 +1,6 @@
 # Cars.com Vehicle Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--10--16-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-9.5M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/carscom)
+![Updated](https://img.shields.io/badge/updated-2026--10--17-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-9.7M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/carscom)
 
 Daily sample of Cars.com vehicle listings with make, model, trim, mileage, body style, drivetrain, and dealer location across new and used inventory.
 
@@ -21,7 +21,7 @@ Sample of Cars.com vehicle listings with year, make, model, trim, mileage, body 
 
 
 
-> **9,535,099** total records from 2025-11-16 to 2026-10-11, **up to 30,000** rows in this sample (0.31% of full dataset).
+> **9,650,107** total records from 2025-11-16 to 2026-10-11, **up to 30,000** rows in this sample (0.31% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](car-listings/chart-growth.svg)
@@ -54,8 +54,8 @@ Sample of Cars.com vehicle listings with year, make, model, trim, mileage, body 
 | `sellerName` 🔒 | `string` | 99% | Seller/dealer name (e.g., Liberty Mazda, Audi Richmond) |
 | `sellerCity` | `string` | 99% | Seller city location |
 | `sellerState` | `string` | 99% | Seller state abbreviation (e.g., CT, VA) |
-| `images` 🔒 | `array` | 38% | Array of all listing photo URLs |
-| `imagesCount` | `float` | 38% | Number of listing images |
+| `images` 🔒 | `array` | 39% | Array of all listing photo URLs |
+| `imagesCount` | `float` | 39% | Number of listing images |
 | `options` | `array` | 1% | Array of vehicle options (e.g., Adaptive Cruise Control, Heated Seats, Bluetooth) |
 | `optionsCount` | `float` | 1% | Number of vehicle options |
 | `description` | `string` | 1% | Seller description/notes about the vehicle |
@@ -76,8 +76,8 @@ Sample of Cars.com vehicle listings with year, make, model, trim, mileage, body 
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Used | 5,865,622 | `████████████░░░░░░░░` 61.5% |
-| New | 3,669,477 | `████████░░░░░░░░░░░░` 38.5% |
+| Used | 5,938,007 | `████████████░░░░░░░░` 61.5% |
+| New | 3,712,100 | `████████░░░░░░░░░░░░` 38.5% |
 
 </details>
 
@@ -88,16 +88,16 @@ Sample of Cars.com vehicle listings with year, make, model, trim, mileage, body 
 
 | Value | Count | Share |
 | --- | --- | --- |
-| SUV | 5,231,930 | `███████████░░░░░░░░░` 55.0% |
-| Truck | 1,823,410 | `████░░░░░░░░░░░░░░░░` 19.2% |
-| Sedan | 1,529,969 | `███░░░░░░░░░░░░░░░░░` 16.1% |
-| Hatchback | 263,922 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
-| Coupe | 228,536 | `░░░░░░░░░░░░░░░░░░░░` 2.4% |
-| Passenger Van | 146,688 | `░░░░░░░░░░░░░░░░░░░░` 1.5% |
-| Convertible | 118,515 | `░░░░░░░░░░░░░░░░░░░░` 1.2% |
-| Cargo Van | 93,720 | `░░░░░░░░░░░░░░░░░░░░` 1.0% |
-| Wagon | 37,644 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
-| Minivan | 37,453 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
+| SUV | 5,296,379 | `███████████░░░░░░░░░` 55.0% |
+| Truck | 1,844,905 | `████░░░░░░░░░░░░░░░░` 19.2% |
+| Sedan | 1,548,355 | `███░░░░░░░░░░░░░░░░░` 16.1% |
+| Hatchback | 266,874 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
+| Coupe | 231,089 | `░░░░░░░░░░░░░░░░░░░░` 2.4% |
+| Passenger Van | 148,526 | `░░░░░░░░░░░░░░░░░░░░` 1.5% |
+| Convertible | 119,812 | `░░░░░░░░░░░░░░░░░░░░` 1.2% |
+| Cargo Van | 94,567 | `░░░░░░░░░░░░░░░░░░░░` 1.0% |
+| Minivan | 38,116 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
+| Wagon | 38,018 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
 
 </details>
 
@@ -108,16 +108,16 @@ Sample of Cars.com vehicle listings with year, make, model, trim, mileage, body 
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Ford | 1,195,126 | `████░░░░░░░░░░░░░░░░` 18.2% |
-| Chevrolet | 1,008,159 | `███░░░░░░░░░░░░░░░░░` 15.3% |
-| Toyota | 940,575 | `███░░░░░░░░░░░░░░░░░` 14.3% |
-| Honda | 653,563 | `██░░░░░░░░░░░░░░░░░░` 9.9% |
-| Nissan | 542,780 | `██░░░░░░░░░░░░░░░░░░` 8.3% |
-| Jeep | 491,200 | `█░░░░░░░░░░░░░░░░░░░` 7.5% |
-| Kia | 482,348 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
-| Hyundai | 482,046 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
-| GMC | 418,884 | `█░░░░░░░░░░░░░░░░░░░` 6.4% |
-| BMW | 354,869 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
+| Ford | 1,209,164 | `████░░░░░░░░░░░░░░░░` 18.2% |
+| Chevrolet | 1,021,174 | `███░░░░░░░░░░░░░░░░░` 15.4% |
+| Toyota | 952,598 | `███░░░░░░░░░░░░░░░░░` 14.3% |
+| Honda | 662,620 | `██░░░░░░░░░░░░░░░░░░` 10.0% |
+| Nissan | 550,297 | `██░░░░░░░░░░░░░░░░░░` 8.3% |
+| Jeep | 496,179 | `█░░░░░░░░░░░░░░░░░░░` 7.5% |
+| Kia | 488,293 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
+| Hyundai | 487,748 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
+| GMC | 423,929 | `█░░░░░░░░░░░░░░░░░░░` 6.4% |
+| BMW | 358,360 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
 
 </details>
 
@@ -128,16 +128,16 @@ Sample of Cars.com vehicle listings with year, make, model, trim, mileage, body 
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Gasoline | 7,930,205 | `█████████████████░░░` 85.2% |
-| Hybrid | 529,373 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
-| Diesel | 360,790 | `█░░░░░░░░░░░░░░░░░░░` 3.9% |
-| Electric | 294,202 | `█░░░░░░░░░░░░░░░░░░░` 3.2% |
-| E85 Flex Fuel | 102,191 | `░░░░░░░░░░░░░░░░░░░░` 1.1% |
-| Gas | 32,768 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
-| Regular gasoline | 24,052 | `░░░░░░░░░░░░░░░░░░░░` 0.3% |
-| Plug-In Hybrid | 14,606 | `░░░░░░░░░░░░░░░░░░░░` 0.2% |
-| Regular unleaded | 10,516 | `░░░░░░░░░░░░░░░░░░░░` 0.1% |
-| Premium gasoline | 10,099 | `░░░░░░░░░░░░░░░░░░░░` 0.1% |
+| Gasoline | 8,026,537 | `█████████████████░░░` 85.2% |
+| Hybrid | 535,785 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
+| Diesel | 364,666 | `█░░░░░░░░░░░░░░░░░░░` 3.9% |
+| Electric | 297,805 | `█░░░░░░░░░░░░░░░░░░░` 3.2% |
+| E85 Flex Fuel | 103,011 | `░░░░░░░░░░░░░░░░░░░░` 1.1% |
+| Gas | 33,349 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
+| Regular gasoline | 23,828 | `░░░░░░░░░░░░░░░░░░░░` 0.3% |
+| Plug-In Hybrid | 14,879 | `░░░░░░░░░░░░░░░░░░░░` 0.2% |
+| Regular unleaded | 10,736 | `░░░░░░░░░░░░░░░░░░░░` 0.1% |
+| Premium gasoline | 9,828 | `░░░░░░░░░░░░░░░░░░░░` 0.1% |
 
 </details>
 
@@ -148,16 +148,16 @@ Sample of Cars.com vehicle listings with year, make, model, trim, mileage, body 
 
 | Value | Count | Share |
 | --- | --- | --- |
-| TX | 966,713 | `████░░░░░░░░░░░░░░░░` 18.5% |
-| FL | 943,972 | `████░░░░░░░░░░░░░░░░` 18.1% |
-| CA | 895,960 | `███░░░░░░░░░░░░░░░░░` 17.2% |
-| OH | 439,846 | `██░░░░░░░░░░░░░░░░░░` 8.4% |
-| IL | 431,962 | `██░░░░░░░░░░░░░░░░░░` 8.3% |
-| NY | 326,184 | `█░░░░░░░░░░░░░░░░░░░` 6.2% |
-| GA | 319,695 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
-| NC | 312,284 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
-| VA | 295,025 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
-| NJ | 288,102 | `█░░░░░░░░░░░░░░░░░░░` 5.5% |
+| TX | 978,150 | `████░░░░░░░░░░░░░░░░` 18.5% |
+| FL | 954,000 | `████░░░░░░░░░░░░░░░░` 18.1% |
+| CA | 906,909 | `███░░░░░░░░░░░░░░░░░` 17.2% |
+| OH | 444,596 | `██░░░░░░░░░░░░░░░░░░` 8.4% |
+| IL | 437,132 | `██░░░░░░░░░░░░░░░░░░` 8.3% |
+| NY | 330,831 | `█░░░░░░░░░░░░░░░░░░░` 6.3% |
+| GA | 322,652 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
+| NC | 316,083 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
+| VA | 298,681 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
+| PA | 293,581 | `█░░░░░░░░░░░░░░░░░░░` 5.6% |
 
 </details>
 
@@ -176,23 +176,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Car Listings
 
 
-[Vehicle Listings with Pricing](https://rebrowser.net/products/datasets/carscom/car-listings/views/listings-with-pricing) — 9,225,768 records
+[Vehicle Listings with Pricing](https://rebrowser.net/products/datasets/carscom/car-listings/views/listings-with-pricing) — 9,225,756 records
 
 ↳ `[{"field":"price","op":"gt","value":0},{"sort":"price ASC"}]`
 
-[New Vehicle Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/new-vehicle-listings) — 3,576,761 records
+[New Vehicle Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/new-vehicle-listings) — 3,576,755 records
 
 ↳ `[{"field":"stockType","op":"is","value":"New"},{"sort":"price ASC"}]`
 
-[Used Vehicle Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/used-vehicle-listings) — 5,658,695 records
+[Used Vehicle Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/used-vehicle-listings) — 5,658,702 records
 
 ↳ `[{"field":"stockType","op":"is","value":"Used"},{"sort":"price ASC"}]`
 
-[Listings with Multiple Photos](https://rebrowser.net/products/datasets/carscom/car-listings/views/listings-with-photos) — 2,919,824 records
+[Listings with Multiple Photos](https://rebrowser.net/products/datasets/carscom/car-listings/views/listings-with-photos) — 2,920,870 records
 
 ↳ `[{"field":"imagesCount","op":"gt","value":5},{"sort":"imagesCount DESC"}]`
 
-[SUV Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/suv-listings) — 5,070,491 records
+[SUV Listings](https://rebrowser.net/products/datasets/carscom/car-listings/views/suv-listings) — 5,070,512 records
 
 ↳ `[{"field":"bodyStyle","op":"is","value":"SUV"},{"sort":"price ASC"}]`
 

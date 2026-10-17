@@ -185,14 +185,14 @@
     "name": "images",
     "type": "array",
     "description": "Array of all listing photo URLs",
-    "fillRate": 38,
+    "fillRate": 39,
     "premium": true
   },
   {
     "name": "imagesCount",
     "type": "float",
     "description": "Number of listing images",
-    "fillRate": 38,
+    "fillRate": 39,
     "premium": false
   },
   {
