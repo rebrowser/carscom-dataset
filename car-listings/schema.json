@@ -101,7 +101,7 @@
     "name": "exteriorColor",
     "type": "string",
     "description": "Exterior color (e.g., Black, White, Silver)",
-    "fillRate": 99,
+    "fillRate": 98,
     "premium": false
   },
   {
